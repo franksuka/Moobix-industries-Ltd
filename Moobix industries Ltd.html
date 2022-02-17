@@ -1,0 +1,179 @@
+<style>
+body {
+  padding: 0;
+  margin: 0;
+  background: #F7F7F7;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+  
+  background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+  margin: 0 auto;
+}
+html {
+  text-align: center;
+}
+.fancy {
+  border: 2px solid lightgreen;
+  display: inline;
+  padding: 40px;
+  position:relative;
+  text-align: center;
+  width: 500px;
+}
+
+.fancy a {
+  background: red;
+  border: 1px solid red;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 18px;
+  width: 100px;
+}
+.fancy a:hover {
+  background: white;
+  border: 1px solid red;
+  color: red;
+}
+img {
+  margin-left: -30px;
+  border-radius: 30px;
+}
+p {
+  font-size: 18px;
+}
+ 
+
+#reg {
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg');
+  background-size: cover;
+  height: 200px;
+  width: cover;
+  margin-top: -70px;
+}
+#reg .content h1 {
+  font-family: Helvetica;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  color: khaki;
+}
+#reg .content h3 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Helvetica;
+  text-align: justify;
+  color: khaki;
+  margin: -85px;
+  margin-left: 130px;
+}
+
+h2 {
+  font-size: 38px !important;
+}
+.brushes h2 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background-color: mediumspringgreen;
+  width: 70%;
+  margin-left: 220px;
+  border-radius: 100px;
+}
+.editor {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: blue;
+}
+.frames h2 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background-color: lightcoral;
+  width: 70%;
+  margin-left: 220px;
+  border-radius: 100px;
+}
+.paint h2 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background-color: skyblue;
+  width: 70%;
+  margin-left: 220px;
+  border-radius: 100px;
+}
+figcaption {
+  font-weight: bold;
+  font-size: 20px;
+}
+figure {
+  margin: left;
+}
+</style>
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./resources/css/index.css">
+  </head>
+  <body>
+    <header>
+      <div id="reg">
+        <div class="content">
+          <h1>MOOBIX INDUSTRIES Ltd.</h1>
+          <h3>RC: 1726927</h3>
+        </div>
+      </div><br><br>
+      <div class="fancy">
+        <a href="#">Tools</a>
+        <a href="#">Lumber</a>
+        <a href="#">Paint</a>
+        <a href="#">Garden</a>
+        <a href="#">Contact</a>
+      </div>
+    </header>
+    
+    <section class="brushes">
+      <article>
+        <h2>Brushes</h2>
+        <figure>
+          <img src="https://content.codecademy.com/courses/freelance-1/unit-2/hacksaw.jpeg" />
+          <figcaption>Hacksaw Brushes</figcaption>
+        </figure>
+        <p>Made of the highest quality oak, Hacksaw brushes are known for their weight and ability to hold paint in large amounts. Available in different sizes.<div class="editor"> Starting at $30.00 / brush</div></p>
+      </article>
+    </section>
+    <section class="frames">
+      <article>
+        <h2>Frames</h2>
+        <figure>
+          <img src="https://content.codecademy.com/courses/freelance-1/unit-2/frames.jpeg" />            
+          <figcaption>Art Frames (Assorted)</figcaption>
+        </figure>
+        <p>Assorted frames made of different material, including MDF, birchwood, and PDE. Select frames can be sanded and painted according to your needs.<div class="editor">Starting at $2.00 / frame.</div></p>
+      </article>
+    </section>
+    <section class="paint">
+      <article>
+        <h2>Paint</h2>
+        <figure>
+          <img src="https://content.codecademy.com/courses/freelance-1/unit-2/finnish.jpeg" />
+          <figcaption>Clean Finnish Paint</figcaption>
+        </figure>
+        <p>Imported paint from Finland. Over 256 colors available in-store, varying in quantity (1 oz. to 8 oz.). Clean Finnish paint microbinds to canvas, increasing the finish and longevity of any artwork.<div class="editor">Starting at $5.00 / tube.</div></p>
+       </article>
+    </section>
+    <footer>
+      <p></p>
+    </footer>
+              
+  </body>
+</html>
